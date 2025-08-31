@@ -45,9 +45,13 @@ external tools
 ## FastMCP Server
 
 Regardless what agent library you use (LangChain, Llama Index and etc.), we need to establish an MCP Server 
-first. FastMCP is a Python library that simplifies the creation of MCP servers by alowing us to 
+first. [FastMCP](https://gofastmcp.com/getting-started/welcome) is a Python library that simplifies the creation of MCP servers by alowing us to 
 define tools using decorators.
 
+
+##Examples
+
+1) In this [example](FastMCP/examples/langraph_mcp_example/README.md), we use [FastMCP](https://gofastmcp.com/getting-started/welcome) and [LangGraph]((https://github.com/langchain-ai/langgraph)) to call multiple **MCP** tools
 
 
 <!--## Financial Reasoning
